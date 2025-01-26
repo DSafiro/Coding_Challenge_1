@@ -31,3 +31,8 @@ accountBalance *= 1.0075 // Balance after an accured interest rate of 7.5%
 
 accountBalance /= 1.125 // Balance after a depreciation rate of 12.5%
     console.log("Account Balance After Depreciation:", accountBalance.toFixed(2))
+
+// Task 4: Customer Messaging
+let customerName = "Jamie Jackson" // Customer Name
+welcomeMessage = "Welcome, " + customerName + "! Glad to have you here!" // Welcome Message
+console.log(welcomeMessage)
