@@ -36,3 +36,13 @@ accountBalance /= 1.125 // Balance after a depreciation rate of 12.5%
 let customerName = "Jamie Jackson" // Customer Name
 welcomeMessage = "Welcome, " + customerName + "! Glad to have you here!" // Welcome Message
 console.log(welcomeMessage)
+
+// Task 5: Access Control
+let isLoggedIn = true // User is logged in
+let hasCredentials = true // User has credentials
+
+if(isLoggedIn && hasCredentials == true) {
+    console.log("Access Granted")
+} else {
+    console.log("Access Denied")
+}
